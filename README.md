@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [x] Creating a Dashboard with Tailwind and shadcn/ui
 
-## Getting Started
+# [] Adding a new Create Invoice Form
 
-First, run the development server:
+# [] Installing & Configuring Xata & Drizzle ORM
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# [] Installing & Configuring Xata & Drizzle ORM
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# [] Creating Table Schemas for Invoice Data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# [] Generating & Running migrations with Drizzle Kit
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# [] Adding new Invoices with Server Actions
 
-## Learn More
+# [] Progressively Enhanced Forms in React 19 & Next.js 15
 
-To learn more about Next.js, take a look at the following resources:
+# [] List Invoices in a DataTable
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# [] Dynamic Page Routes for Invoices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# [] Catching & Handling Errors
 
-## Deploy on Vercel
+# [] Adding Social Login with Clerk
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# [] Protecting Routes with Clerk Middleware
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# [] Creating a Page Layout with Site Header & Footer
+
+# [] Building Login & Signup Pages
+
+# [] Custom Login Page with Clerk Elements
+
+# [] Configuring MFA
+
+# [] Setting up Passwordless Auth with Passkeys
+
+# [] Securing Server Actions with Clerk
+
+# [] Add New User ID Column to Invoices
+
+# [] Restricting Invoice Access by User
+
+# [] Update Invoice Status
+
+# [] Optimistic UI Updates in React 19
+
+# [] Deleting Invoices
+
+# [] Add Confirmation Modal for Deletion
+
+# [] Creating Table Relationships for Customer Details
+
+# [] Joining Multiple Tables for Customer Data
+
+# [] Creating & Managing Organizations
+
+# [] Add new Organization ID Column to Invoices
+
+# [] Restricting Access by Organization
+
+# [] Install & Configure Stripe
+
+# [] Adding a Public Payment Page
+
+# [] Creating Payment Sessions with Stripe Checkout
+
+# [] Payment State with URL Parameters & Stripe Sessions
+
+# [] Creating Email Templates with React
+
+# [] Sending Transactional Emails with Resend
+
+# [] Deploy
