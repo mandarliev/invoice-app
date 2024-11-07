@@ -2,9 +2,7 @@
 
 # [x] Adding a new Create Invoice Form
 
-# [] Installing & Configuring Xata & Drizzle ORM
-
-# [] Installing & Configuring Xata & Drizzle ORM
+# [x] Installing & Configuring Xata & Drizzle ORM
 
 # [] Creating Table Schemas for Invoice Data
 
