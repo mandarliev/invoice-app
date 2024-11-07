@@ -1,6 +1,6 @@
 # [x] Creating a Dashboard with Tailwind and shadcn/ui
 
-# [] Adding a new Create Invoice Form
+# [x] Adding a new Create Invoice Form
 
 # [] Installing & Configuring Xata & Drizzle ORM
 
