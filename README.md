@@ -4,7 +4,7 @@
 
 # [x] Installing & Configuring Xata & Drizzle ORM
 
-# [] Creating Table Schemas for Invoice Data
+# [x] Creating Table Schemas for Invoice Data
 
 # [] Generating & Running migrations with Drizzle Kit
 
