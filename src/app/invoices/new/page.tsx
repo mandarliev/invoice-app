@@ -1,17 +1,34 @@
+"use client";
+
 import { createAction } from "@/app/actions";
+import SubmitButton from "@/components/submit-button";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { SyntheticEvent, useState, startTransition } from "react";
+import Form from "next/form";
 
-export default async function Home() {
+export default function Home() {
+  const [state, setState] = useState("ready");
+
+  async function handleOnSubmit(event: SyntheticEvent) {
+    if (state === "pending") {
+      event.preventDefault();
+      return;
+    }
+    setState("pending");
+  }
   return (
     <main className="flex flex-col justify-center h-full gap-6 max-w-5xl mx-auto my-12">
       <div className="flex justify-between">
         <h1 className="text-3xl font-bold">Create Invoice</h1>
       </div>
-
-      <form action={createAction} className="grid gap-4 max-w-xs">
+      <Form
+        action={createAction}
+        onSubmit={handleOnSubmit}
+        className="grid gap-4 max-w-xs"
+      >
         <div>
           <Label htmlFor="name" className="block mb-2 font-semibold text-sm">
             Billing Name
@@ -40,9 +57,9 @@ export default async function Home() {
           <Textarea id="description" name="description"></Textarea>
         </div>
         <div>
-          <Button className="w-full font-semibold">Submit</Button>
+          <SubmitButton />
         </div>
-      </form>
+      </Form>
     </main>
   );
 }

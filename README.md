@@ -10,7 +10,7 @@
 
 # [x] Adding new Invoices with Server Actions
 
-# [] Progressively Enhanced Forms in React 19 & Next.js 15
+# [x] Progressively Enhanced Forms in React 19 & Next.js 15
 
 # [] List Invoices in a DataTable
 
