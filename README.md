@@ -6,7 +6,7 @@
 
 # [x] Creating Table Schemas for Invoice Data
 
-# [] Generating & Running migrations with Drizzle Kit
+# [x] Generating & Running migrations with Drizzle Kit; dotenv
 
 # [] Adding new Invoices with Server Actions
 
