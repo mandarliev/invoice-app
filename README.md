@@ -12,7 +12,7 @@
 
 # [x] Progressively Enhanced Forms in React 19 & Next.js 15
 
-# [] List Invoices in a DataTable
+# [x] List Invoices in a DataTable
 
 # [] Dynamic Page Routes for Invoices
 
