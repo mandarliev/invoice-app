@@ -8,7 +8,7 @@
 
 # [x] Generating & Running migrations with Drizzle Kit; dotenv
 
-# [] Adding new Invoices with Server Actions
+# [x] Adding new Invoices with Server Actions
 
 # [] Progressively Enhanced Forms in React 19 & Next.js 15
 
